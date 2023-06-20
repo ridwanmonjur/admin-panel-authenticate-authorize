@@ -1,0 +1,73 @@
+Arguments: 
+  /home/ridwan/.nvm/versions/node/v14.21.1/bin/node /home/ridwan/.nvm/versions/node/v14.21.1/bin/yarn start
+
+PATH: 
+  /home/ridwan/.local/bin:/home/ridwan/.nvm/versions/node/v14.21.1/bin:/home/ridwan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.21.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ridwan/Projects/football-shop-mern-api/package.json: Unexpected token / in JSON at position 211
+      at JSON.parse (<anonymous>)
+      at /home/ridwan/.nvm/versions/node/v14.21.1/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/ridwan/.nvm/versions/node/v14.21.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/ridwan/.nvm/versions/node/v14.21.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "mine",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "cacheDirectories": [
+      "node_modules",
+      "client/node_modules"
+    ],
+    "scripts": {
+      "start": "ts-node index.ts"
+      // "dev:server": "nodemon --watch './*.ts' --exec ts-node index.ts",
+      // "test": "echo \"Error: no test specified\" && exit 1",
+      // "db:locally": "mongosh \"mongodb://localhost:27017\"",
+      // "db:seed": "nodemon --watch './*.ts' --exec ts-node seed.ts",
+      // "mongo:start:ubuntu": "sudo systemctl start mongod"
+    },
+    "author": "ridwan-monjur",
+    "license": "ISC",
+    "dependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^16.10.2",
+      "bcrypt": "^5.0.1",
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "faker": "^5.5.3",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^5.13.7",
+      "nodemon": "^2.0.12",
+      "ts-node": "^10.2.0",
+      "typescript": "^4.3.5",
+      "winston": "^3.8.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.12",
+      "ts-node": "^10.2.0",
+      "typescript": "^4.3.5"
+    },
+    "engines": {
+      "node": "14.x"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

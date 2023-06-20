@@ -1,0 +1,122 @@
+[
+  {
+    "name": "PHANTOM GT ELITE DYNAMIC FIT FG",
+    "price": "$274.99",
+    "productOwner": "Nike",
+    "img": "imageL0.jpg"
+  },
+  {
+    "name": "MERCURIAL SUPERFLY 8 ELITE FG",
+    "price": "$274.99",
+    "productOwner": "Nike",
+    "img": "imageL1.jpg"
+  },
+  {
+    "name": "FUTURE Z 1.2 FG/AG",
+    "price": "$199.99",
+    "productOwner": "Puma",
+    "img": "imageL2.jpg"
+  },
+  {
+    "name": "FUTURE Z 1.2 FG/AG",
+    "price": "$199.99",
+    "productOwner": "Puma",
+    "img": "imageL3.jpg"
+  },
+  {
+    "name": "JR. MERCURIAL SUPERFLY 8 ACADEMY MG",
+    "price": "$119.99",
+    "productOwner": "Nike",
+    "img": "imageL4.jpg"
+  },
+  {
+    "name": "ULTRA 1.3 FG/AG",
+    "price": "$119.99",
+    "productOwner": "Puma",
+    "img": "imageL5.jpg"
+  },
+  {
+    "name": "PREDATOR FREAK + FG",
+    "price": "$219.99",
+    "productOwner": "adidas",
+    "img": "imageL6.jpg"
+  },
+  {
+    "name": "MERCURIAL VAPOR 14 PRO FG",
+    "price": "$139.99",
+    "productOwner": "Nike",
+    "img": "imageL7.jpg"
+  },
+  {
+    "name": "JR FUTURE Z 4.2 FG/AG",
+    "price": "$49.99",
+    "productOwner": "adidas",
+    "img": "imageL8.jpg"
+  },
+  {
+    "name": "X GHOSTED + FG JR",
+    "price": "$123.74",
+    "productOwner": "adidas",
+    "img": "imageL9.jpg"
+  },
+  {
+    "name": "FUTURE Z 1.1 FG/AG",
+    "price": "$199.99",
+    "productOwner": "Puma",
+    "img": "imageL10.jpg"
+  },
+  {
+    "name": "MERCURIAL VAPOR 14 ELITE FG",
+    "price": "$249.99",
+    "productOwner": "Nike",
+    "img": "imageL11.jpg"
+  },
+  {
+    "name": "PUMA FUTURE 5.1 NETFIT FG/AG - ULTRA YELLOW/PUMA BLACK",
+    "price": "$219.99",
+    "productOwner": "Puma",
+    "img": "imageL12.jpg"
+  },
+  {
+    "name": "ADIDAS PREDATOR 20.2 FG - ACTIVE RED/WHITE",
+    "price": "$45.99",
+    "productOwner": "adidas",
+    "img": "imageL13.jpg"
+  },
+  {
+    "name": "ADIDAS JR PREDATOR 20.3 FG - CORE BLACK/WHITE",
+    "price": "$45.99",
+    "productOwner": "adidas",
+    "img": "imageL14.jpg"
+  },
+  {
+    "name": "ADIDAS NEMEZIZ 19+ FG - WHITE/TEAM ROYAL",
+    "price": "$219.99",
+    "productOwner": "adidas",
+    "img": "imageL15.jpg"
+  },
+  {
+    "name": "ADIDAS COPA GLORO 20.2 FG - ACTIVE RED/WHITE",
+    "price": "$53.99",
+    "productOwner": "adidas",
+    "img": "imageL16.jpg"
+  },
+  {
+    "name": "JR EVOPOWER 1.3 TRICKS FG",
+    "price": "$47.99",
+    "productOwner": "Puma",
+    "img": "imageL17.jpg"
+  },
+  {
+    "name": "ADIDAS PREDATOR 19+ FG - LEGACY GREEN/SAND",
+    "price": "$219.99",
+    "productOwner": "adidas",
+    "img": "imageL18.jpg"
+  },
+  {
+    "name": "NIKE PHANTOM VENOM ELITE FG - BRIGHT MANGO/WHITE/ORANGE PULSE",
+    "price": "$199.99",
+    "productOwner": "Nike",
+    "img": "imageL19.jpg"
+  }
+]

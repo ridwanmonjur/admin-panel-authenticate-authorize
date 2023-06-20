@@ -1,0 +1,122 @@
+[
+  {
+    "name": "MANCHESTER UNITED AUTHENTIC HOME JERSEY 21/22",
+    "price": "$129.99",
+    "productOwner": "adidas",
+    "img": "imageL0.jpg"
+  },
+  {
+    "name": "MANCHESTER CITY FC HOME AUTHENTIC JERSEY 21/22",
+    "price": "$119.99",
+    "productOwner": "Puma",
+    "img": "imageL1.jpg"
+  },
+  {
+    "name": "PUMA BORUSSIA DORTMUND CUP JERSEY 19/20",
+    "price": "$60.99",
+    "productOwner": "PUMA",
+    "img": "imageL2.jpg"
+  },
+  {
+    "name": "MANCHESTER CITY FC AWAY REPLICA JERSEY 21/22",
+    "price": "$89.99",
+    "productOwner": "Puma",
+    "img": "imageL3.jpg"
+  },
+  {
+    "name": "REAL MADRID AUTHENTIC HOME JERSEY 21/22",
+    "price": "$119.99",
+    "productOwner": "adidas",
+    "img": "imageL4.jpg"
+  },
+  {
+    "name": "CHIVAS GUADALAJARA HOME AUTHENTIC JERSEY 21/22",
+    "price": "$119.99",
+    "productOwner": "adidas",
+    "img": "imageL5.jpg"
+  },
+  {
+    "name": "YOUTH SPAIN AWAY JERSEY 2021",
+    "price": "$55.99",
+    "productOwner": "adidas",
+    "img": "imageL6.jpg"
+  },
+  {
+    "name": "CHIVAS GUADALAJARA AWAY REPLICA JERSEY 21/22",
+    "price": "$89.99",
+    "productOwner": "Puma",
+    "img": "imageL7.jpg"
+  },
+  {
+    "name": "YOUTH MEXICO HOME JERSEY 2021",
+    "price": "$69.99",
+    "productOwner": "adidas",
+    "img": "imageL8.jpg"
+  },
+  {
+    "name": "NIKE TOTTENHAM HOTSPUR THIRD MATCH JERSEY 19/20",
+    "price": "$123.74",
+    "productOwner": "Nike",
+    "img": "imageL9.jpg"
+  },
+  {
+    "name": "GERMANY AWAY AUTHENTIC JERSEY 2021",
+    "price": "$129.99",
+    "productOwner": "adidas",
+    "img": "imageL10.jpg"
+  },
+  {
+    "name": "Puma ITALY HOME JERSEY 2021",
+    "price": "$89.99",
+    "productOwner": "Puma",
+    "img": "imageL11.jpg"
+  },
+  {
+    "name": "ITALY THIRD JERSEY 2021",
+    "price": "$129.99",
+    "productOwner": "Nike",
+    "img": "imageL12.jpg"
+  },
+  {
+    "name": "MANCHESTER CITY FC FOOTBALL CULTURE TEE 21/22",
+    "price": "$34.99",
+    "productOwner": "adidas",
+    "img": "imageL13.jpg"
+  },
+  {
+    "name": "YOUTH SD LOYAL REPLICA AWAY JERSEY 2020",
+    "price": "$45.99",
+    "productOwner": "adidas",
+    "img": "imageL14.jpg"
+  },
+  {
+    "name": "ADIDAS LA GALAXY AUTHENTIC AWAY JERSEY 2019",
+    "price": "$71.99",
+    "productOwner": "adidas",
+    "img": "imageL15.jpg"
+  },
+  {
+    "name": "GERMANY PRE-MATCH JERSEY 2021",
+    "price": "$53.99",
+    "productOwner": "adidas",
+    "img": "imageL16.jpg"
+  },
+  {
+    "name": "SPAIN PRE-MATCH JERSEY 2021",
+    "price": "$47.99",
+    "productOwner": "Puma",
+    "img": "imageL17.jpg"
+  },
+  {
+    "name": "NEW BALANCE LIVERPOOL AWAY JERSEY 19/20",
+    "price": "$63.74",
+    "productOwner": "New Balance",
+    "img": "imageL18.jpg"
+  },
+  {
+    "name": "NEW BALANCE LIVERPOOL HOME LONG SLEEVE JERSEY 19/20",
+    "price": "$85.49",
+    "productOwner": "New Balance",
+    "img": "imageL19.jpg"
+  }
+]

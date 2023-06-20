@@ -1,0 +1,80 @@
+0) non-centralized v/s centralize error handling
+try{ 
+app.get('/user/:id', async (req, res, next) => {
+  const user = await getUserById(req.params.id)
+  res.send(user)
+})
+}
+catch(err){ 
+
+    res.send("Error occured")
+ } // deal in the catch clause for every function
+
+Error handling can have hundreds of approaches:
+1) Ca
+
+0) try-catch vs promise vs event handlers
+
+Customizations:
+1) Express 4 doesn't catch async errors, like Express 5. But it catches sync errors. 
+So you have to use promises/ event-handlers/ try-catch for express 4 and pass it to the next() function
+
+
+try{ 
+app.get('/user/:id', async (req, res, next) => {
+  const user = await getUserById(req.params.id)
+  res.send(user)
+})
+}
+catch(err){ next(err) } // global middleware
+
+Starting with Express 5, route handlers and middleware that return a Promise will call next(value) 
+automatically when they reject or throw an error. For example:
+
+app.get('/user/:id', async (req, res, next) => {
+  const user = await getUserById(req.params.id)
+  res.send(user)
+})
+
+
+2) override default ugly error catching of node.js. Pass 4 parameters to your handler after all routes 
+or it will be a middleware.
+- log by your library
+- cstomized response object
+
+app.use((err, _, __, next)=> { res.status(error.code).json({message.message}) })
+try{ }
+catch(err){ next(err) } // your middleware will handle this. (or express if you hadn't written this)
+
+3) trust some errors or not. You shouldn't trust all errors IN REALITY and stop the system 
+but this is complicated to achieve
+It is very difficult will not trust errors 
+OPTION 1) that are not thrown by you 
+OPTION 2) OR whose status code and messages are not listed by you.
+
+IT'S VERY DIFFICULT TO ACHIEVE NUMBER TOO FOR DATABASE. CAN BE DONE FOR APIS 
+
+So you must throw error in the caught error in the catch statement and use try...catch
+
+OPTION 1) you catch error thown by system and throw your own error
+
+try{ }
+catch(err){ throw new APIError(); }
+
+class BaseError{}
+class APIError extends BaseError {
+    isTrusted() { res.status(error.code).json({message.message}) }
+}
+
+4) action for untrusted errors
+SLEEP and webserver restores it?
+emails you?
+or pm2 restarts?
+or just sleep?
+
+5) method of catching errors and centralizing error handling
+6) remove ugly try...catch then no centralized error handling
+7) centralize error throwing????
+
+
+Express handles sync
